@@ -35,7 +35,7 @@ namespace LTTQ_17_Oct
                 "Khoa = N'" + txtKhoa.Text + "', " +
                 "Lop = N'" + txtLop.Text + "', " +
                 "DiaChi = N'" + txtDiaChi.Text + "'" +
-                "where MaSV = N'" + txtMaSV + "'";
+                "where MaSV = N'" + txtMaSV.Text + "'";
             db.executeQuery(query);
             this.LoadDataGridView();
         }
